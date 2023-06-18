@@ -1,0 +1,13 @@
+@model List<selman>
+
+    <div>   </div>
+
+    @foreach (selman emp in Model)
+    {
+        <h1>@emp.FullName</h1> 
+        <h1>@emp.Id</h1> 
+        <h1>@emp.FirstName</h1>
+        <h1>@emp.LastName</h1> 
+
+
+    }
